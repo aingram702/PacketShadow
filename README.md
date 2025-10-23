@@ -43,13 +43,13 @@ cd packetshadow
 ~~~
 2. Make the script executable:
 ~~~
-chmod +x monitor_mode_gui_dark.py
+chmod +x PacketShadow.py
 ~~~
 3. Run the GUI as root (recommended):
 ~~~
-sudo ./monitor_mode_gui_dark.py
+sudo ./PacketShadow.py
 # or
-sudo python3 monitor_mode_gui_dark.py
+sudo python3 PacketShadow.py
 ~~~
 Why sudo? Many airmon-ng and service commands require root privileges. The GUI will warn you if you are not root, but commands may fail without it.
 
@@ -63,7 +63,7 @@ Why sudo? Many airmon-ng and service commands require root privileges. The GUI w
 * Check the console area at the bottom for stdout/stderr and status messages.
 
 # Example Workflow
-1. Open PacketShadow (sudo ./monitor_mode_gui_dark.py).
+1. Open PacketShadow (sudo ./PacketShadow.py).
 2. Select wlp3s0 (or type its number).
 3. Click Check Kill — see warnings/logs in the console.
 4. Click Enable to put the adapter into monitor mode.
