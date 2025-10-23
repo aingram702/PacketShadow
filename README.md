@@ -51,7 +51,7 @@ sudo ./PacketShadow.py
 # or
 sudo python3 PacketShadow.py
 ~~~
-Why sudo? Many airmon-ng and service commands require root privileges. The GUI will warn you if you are not root, but commands may fail without it.
+Why sudo? Many airmon-ng and service commands require root privileges. The GUI will warn you if you are not root, but commands will fail without it.
 
 # Usage
 * Start the script as shown above.
