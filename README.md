@@ -8,6 +8,8 @@ PacketShadow is a lightweight Tkinter GUI wrapper around common airmon-ng workfl
 
 It is deliberately compact: small buttons, tight layout, and a neon-green-on-black “hacker” aesthetic that resembles a terminal but remains fully clickable.
 
+This tool is truly built for those of us who switch between monitor mode and managed mode a lot, use check kill a lot, and those that hate having to restart Network Manager constantly.
+
 # Features
 * Lists available wireless adapters (via iw / ip link)
 * Start monitor mode (airmon-ng start <iface>)
