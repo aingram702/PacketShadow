@@ -29,6 +29,30 @@ This tool is truly built for those of us who switch between monitor mode and man
 * iw and ip utilities (usually present on modern distros)
 * sudo / root privileges to control interfaces and restart services
 
+Install system deps (example for Debian/Ubuntu):
+~~~
+sudo apt update
+sudo apt install -y python3 python3-tk aircrack-ng iw iproute2
+~~~
+
+# Installation
+1. Clone the repo (or copy the script) to your machine:
+~~~
+git clone https://github.com/<your-username>/packetshadow.git
+cd packetshadow
+~~~
+2. Make the script executable:
+~~~
+chmod +x monitor_mode_gui_dark.py
+~~~
+3. Run the GUI as root (recommended):
+~~~
+sudo ./monitor_mode_gui_dark.py
+# or
+sudo python3 monitor_mode_gui_dark.py
+~~~
+Why sudo? Many airmon-ng and service commands require root privileges. The GUI will warn you if you are not root, but commands may fail without it.
+
 # Usage
 * Start the script as shown above.
 * Select a wireless adapter from the list (click or enter its number).
